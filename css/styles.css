@@ -10,6 +10,9 @@ ul {
 button {
     cursor: pointer;
 }
+.orange {
+    color: #fd9222;
+}
 /* #region header */
 .header-page {}
 
@@ -28,16 +31,14 @@ button {
 }
 .nav-list {}
 
-.nav-item {
-    color: #111111
-}
+.nav-item {}
 
 .nav-item-link {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
     letter-spacing: -0.02em;
-    color: currentColor;
+    color: #111111;
 }
 
 .nav-item-link:hover,
@@ -127,9 +128,6 @@ button {
     text-transform: uppercase;
     color: #111111;
 }
-.block-title-span {
-    color: #fd9222;
-}
 
 .block-text {
     font-weight: 400;
@@ -216,45 +214,33 @@ button {
     letter-spacing: -0.02em;
     color: #ffffff;
 }
-.footer-title-span {
-    color: #fd9222;
-}
 
-.contact {}
+.contact {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.28;
+    letter-spacing: -0.02em;
+}
 
 .contact-text {
     font-weight: 500;
     font-size: 14px;
-    font-style: normal;
     line-height: 1.28;
     color: #ffffff;
 }
 
 .contact-link {
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 1.28;
-    letter-spacing: -0.02em;
-    font-style: normal;
     color: #ffffff;
 }
-
+.contact-link:hover,
+.contact-link:focus {
+    color: #fd9222;
+}
 .footer-list {}
 
-.footer-item {
+footer .nav-item-link {
     color: #ffffff;
-}
-
-.footer-item-link {
-    font-weight: 500;
-    font-size: 14px;
-    line-height: 1.14286;
-    letter-spacing: -0.02em;
-    color: currentColor;
-}
-.footer-item-link:hover,
-.footer-item-link:focus {
-    color: #fd9222;
 }
 /* #endregion footer */
 
