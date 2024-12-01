@@ -225,6 +225,7 @@ button {
 .contact-text {
     font-weight: 500;
     font-size: 14px;
+    font-style: normal;
     line-height: 1.28;
     color: #ffffff;
 }
